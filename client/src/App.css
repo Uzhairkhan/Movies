@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+
+body {
+  background-color: darkgray;
+}
+
+.button {
+  background-color: #eee5e5;
+  color: #6b2f2f;
+}
+
+#main {
+  background-color: #6b2f2f;
+  color: #eee5e5;
+  height: 15%;
+}
+
+#nav-brand {
+  padding: 15px;
+  text-align: justify;
+  font-size: 2em;
+  font-family: cursive;
+}
+
+#main-nav {
+  text-align: right;
+}
+
+#main-nav ul {
+  margin-top: 10px;
+  padding: 10px;
+  list-style-type: none;
+}
+
+#main-nav ul li {
+  padding: 15px 20px;
+  display: inline-block;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #f0e8e8;
+  transition: 0.6s ease-in;
+}
+
+.nav-link :hover {
+  background-color: #f4f4f4;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#carousel {
+  margin-top: 2px;
+  width: 100%;
+  height: auto;
+  border: 3px solid #6b2f2f;
+}
+
+.carousel-item img {
+  width: 640px;
+  height: 500px;
+}
+
+#add-movie {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#titles {
+  font-size: 1.5em;
+  font-weight: bolder;
+
+  text-align: center;
+}
+
+#movie-title {
+  text-align: left;
+}
+
+#movie-title h2 {
+  font-size: 3em;
+  font-weight: bolder;
+}
+
+.cards img {
+  border: #6b2f2f 2px solid;
+}
+
+/* #close-image img {
+  display: block;
+  height: 40px;
+  width: 30px;
+} */
